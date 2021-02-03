@@ -1,8 +1,19 @@
 <template>
-    <h1>Hello from Inertia Vue 3</h1>
-
+  <layout title="Welcome">
+    <h1>Welcome</h1>
+    <p>Hello welcome to your first Inertia app!</p>
+  </layout>
 </template>
 
 <script>
-export default {};
+  import Layout from '@/Shared/Layout'
+
+  export default {
+    components: {
+      Layout,
+    },
+    props: {
+      user: Object,
+    },
+  }
 </script>
