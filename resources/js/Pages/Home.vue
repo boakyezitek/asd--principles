@@ -1,7 +1,11 @@
 <template>
   <layout title="Welcome">
     <h1>Welcome</h1>
-    <p>Hello welcome to your first Inertia app!</p>
+    <p>Choose any option</p>
+
+    <div>
+        <div></div>
+    </div>
   </layout>
 </template>
 
@@ -17,3 +21,7 @@
     },
   }
 </script>
+
+<style lang="stylus" scoped>
+
+</style>
