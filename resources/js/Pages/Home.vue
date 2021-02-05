@@ -6,8 +6,8 @@
          <h1>Welcome</h1>
          <p>Choose any option</p>
         <div class="option-box">
-            <div>12 principles of Agile Software Development</div>
-            <div>4 values of Agile Software Development</div>
+            <div><inertia-link class="nav-link active" href="/principles">principles of Agile Software Development</inertia-link> </div>
+            <div><inertia-link class="nav-link active" href="/values">4 values of Agile Software Development</inertia-link></div>
         </div>
     </div>
   </layout>
@@ -45,5 +45,6 @@
        box-shadow: 0px 3px 5px #ccc;
        padding: 5px;
        text-align: center;
+       margin: 5px;
    }
 </style>
