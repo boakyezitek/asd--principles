@@ -15,6 +15,8 @@ class CreatePrinciplesTable extends Migration
     {
         Schema::create('principles', function (Blueprint $table) {
             $table->id();
+            $table->string('title')->nullable();
+            $table->longText('description')->nullable();
             $table->timestamps();
         });
     }

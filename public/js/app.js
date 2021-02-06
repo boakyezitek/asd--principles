@@ -16727,6 +16727,30 @@ var map = {
 		"./resources/js/Pages/Home.vue",
 		"resources_js_Pages_Home_vue"
 	],
+	"./Principles/Create": [
+		"./resources/js/Pages/Principles/Create.vue",
+		"resources_js_Pages_Principles_Create_vue"
+	],
+	"./Principles/Create.vue": [
+		"./resources/js/Pages/Principles/Create.vue",
+		"resources_js_Pages_Principles_Create_vue"
+	],
+	"./Principles/Edit": [
+		"./resources/js/Pages/Principles/Edit.vue",
+		"resources_js_Pages_Principles_Edit_vue"
+	],
+	"./Principles/Edit.vue": [
+		"./resources/js/Pages/Principles/Edit.vue",
+		"resources_js_Pages_Principles_Edit_vue"
+	],
+	"./Principles/Index": [
+		"./resources/js/Pages/Principles/Index.vue",
+		"resources_js_Pages_Principles_Index_vue"
+	],
+	"./Principles/Index.vue": [
+		"./resources/js/Pages/Principles/Index.vue",
+		"resources_js_Pages_Principles_Index_vue"
+	],
 	"./Users/Create": [
 		"./resources/js/Pages/Users/Create.vue",
 		"resources_js_Pages_Users_Create_vue"
@@ -16750,6 +16774,30 @@ var map = {
 	"./Users/Index.vue": [
 		"./resources/js/Pages/Users/Index.vue",
 		"resources_js_Pages_Users_Index_vue"
+	],
+	"./Values/Create": [
+		"./resources/js/Pages/Values/Create.vue",
+		"resources_js_Pages_Values_Create_vue"
+	],
+	"./Values/Create.vue": [
+		"./resources/js/Pages/Values/Create.vue",
+		"resources_js_Pages_Values_Create_vue"
+	],
+	"./Values/Edit": [
+		"./resources/js/Pages/Values/Edit.vue",
+		"resources_js_Pages_Values_Edit_vue"
+	],
+	"./Values/Edit.vue": [
+		"./resources/js/Pages/Values/Edit.vue",
+		"resources_js_Pages_Values_Edit_vue"
+	],
+	"./Values/Index": [
+		"./resources/js/Pages/Values/Index.vue",
+		"resources_js_Pages_Values_Index_vue"
+	],
+	"./Values/Index.vue": [
+		"./resources/js/Pages/Values/Index.vue",
+		"resources_js_Pages_Values_Index_vue"
 	]
 };
 function webpackAsyncContext(req) {
@@ -16846,7 +16894,7 @@ module.exports = webpackAsyncContext;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_Pages_Home_vue":1,"resources_js_Pages_Users_Create_vue":1,"resources_js_Pages_Users_Edit_vue":1,"resources_js_Pages_Users_Index_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Pages_Home_vue":1,"resources_js_Pages_Principles_Create_vue":1,"resources_js_Pages_Principles_Edit_vue":1,"resources_js_Pages_Principles_Index_vue":1,"resources_js_Pages_Users_Create_vue":1,"resources_js_Pages_Users_Edit_vue":1,"resources_js_Pages_Users_Index_vue":1,"resources_js_Pages_Values_Create_vue":1,"resources_js_Pages_Values_Edit_vue":1,"resources_js_Pages_Values_Index_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
